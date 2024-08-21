@@ -15,15 +15,19 @@ If you want to generate image from image, set to  "True"; if set to "False", it 
 如果你想要從圖片生成圖片，請設為 "True"；如果設為 "False"，則會從提示詞生成圖片  
 (generate_from_image = True)  
 
+# Prompt 提示詞
+Please put your prompt in an Excel file, and then put the Excel file's path here  
+請將提示詞放在 Excel 檔案裡面，然後將 Excel 檔案的路徑放在這裡  
+(for example, C:\\Prompt_Source\\ImageGenerationFullAuto_Excel_Template.xlsx )  
 
 # Img source directory 圖片來源路徑(請從 C槽/D槽/E槽 開始)
-(for example, C:\Image_Source)  
+(for example, C:\\Image_Source)  
 Please put the source image in the directory with the same name as the row number (row-number-directory), then put the row-number-directory under the storage-directory   
 請將放置圖片的資料夾命名為 Excel檔案中存放提示詞那列的編號，然後將該資料夾放在 image_source_path這個資料夾裡面  
-(for example, C:\Image_Source\4 => C:\Image_Source\4\image_001.jpg)  
+(for example, C:\\Image_Source\\4 => C:\\Image_Source\\4\\image_001.jpg )  
 
 # About directory where you put your image: 關於來源圖片應該怎麼放：
 for each image in the directory:   
 this program will make a sub-directory with the same name as the image, and put the image into the sub-directory, then put generated image into that sub-directory  
 storage-directory內的每張圖片都會被這個程式建立一個子資料夾，子資料夾名稱同圖片名稱，然後將圖片會被複製到子資料夾裡面，然後生成的圖片會存在子資料夾裡面  
-(for example, C:\Image_Source\4\image_001.jpg => C:\Image_Source\4\image_001\image_001.png [生成圖片會存在同一個資料夾裡面])  
+(for example, C:\\Image_Source\\4\\image_001.jpg => C:\\Image_Source\\4\\image_001\\image_001.png [生成圖片會存在同一個資料夾裡面])  
