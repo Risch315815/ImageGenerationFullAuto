@@ -63,8 +63,6 @@ class TensorAPI():
         self.url_job = "/v1/jobs"
         self.url_resource = "/v1/resource"
         #parameter pack
-        self.def_furry = self.prompt_dict['def_furry']
-        self.species = self.prompt_dict['species']
         self.body_type = self.prompt_dict['body_type']
         self.participant = self.prompt_dict['participant']
         self.activity = self.prompt_dict['activity']
@@ -207,7 +205,6 @@ class TensorAPI():
                     "prompts": [
                         {
                             "text": f"""
-                            {self.def_furry}, {self.species}, 
                             {self.body_type},   
                             {self.participant}, {self.activity},  
                             {self.extremities},
