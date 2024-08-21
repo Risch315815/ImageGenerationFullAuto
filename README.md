@@ -1,10 +1,10 @@
 # ImageGenerationFullAuto
 
 # Package 組套
-Install these package with pip:  [requests, json, time, hashlib, openpyxl, shutil] and [win11toast]
-先用 pip 安裝這些套件： [requests, json, time, hashlib, openpyxl, shutil] and [win11toast]
-For operative system before Windows 11, please find and delete every line that contains "toast"
-作業系統版本比 Windows 11 舊的使用者，可以刪除所有包含 "toast" 的行 (ctrl+f 尋找)
+Install these package with pip:  [requests, json, time, hashlib, openpyxl, shutil] and [win11toast]  
+先用 pip 安裝這些套件： [requests, json, time, hashlib, openpyxl, shutil] and [win11toast]  
+For operative system before Windows 11, please find and delete every line that contains "toast"  
+作業系統版本比 Windows 11 舊的使用者，可以刪除所有包含 "toast" 的行 (ctrl+f 尋找)  
 
 # API 伺服器
 Get an account on TensorArt (https://tensor.art/login), then get your API keys and App_ID at (https://tams.tensor.art/app)
