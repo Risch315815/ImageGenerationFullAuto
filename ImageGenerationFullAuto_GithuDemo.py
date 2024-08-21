@@ -33,7 +33,7 @@ img_source_path = {Path to storage-directory 資料夾路徑} #for example, C:\I
 # 請將提示詞放在 Excel 檔案裡面，然後將 Excel 檔案的路徑放在這裡
 promt_source = {Path to Excel file Excel檔案路徑}
 this_book_tab = {Name of tab in Excel file Excel檔案內書籤名稱}
-this_row_list = [1, 3, 4...] # Put as many row numbers as you want to generate #這是 list，所以想要文生圖/圖生圖的Excel行編號都可以加進來
+this_row_list = [2, 3, 4...] # Put as many row numbers as you want to generate #這是 list，所以想要文生圖/圖生圖的Excel行編號都可以加進來
 
 how_many_image = 60 # How many pictures do you want to generate? #每組提示詞想生成幾張圖
 img_width = 1024 # Maximum is 1024 #圖片寬度最大為 1024
