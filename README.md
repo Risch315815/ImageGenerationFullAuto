@@ -16,8 +16,8 @@ If you want to generate image from image, set to  "True"; if set to "False", it 
 (generate_from_image = True)  
 
 # Prompt 提示詞
-Please put your prompt in an Excel file, and then put the Excel file's path here  
-請將提示詞放在 Excel 檔案裡面，然後將 Excel 檔案的路徑放在這裡  
+Please put your prompt in an Excel file, and then put the Excel file's path here (ImageGenerationFullAuto_Excel_Template.xlsx)  
+請將提示詞放在 Excel 檔案裡面，然後將 Excel 檔案的路徑放在這裡 (Excel模板上面可以下載：ImageGenerationFullAuto_Excel_Template.xlsx)  
 (for example, C:\\Prompt_Source\\ImageGenerationFullAuto_Excel_Template.xlsx )  
 
 # Img source directory 圖片來源路徑(請從 C槽/D槽/E槽 開始)
